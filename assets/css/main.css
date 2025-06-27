@@ -168,6 +168,15 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 		}
+.aexception {
+		-moz-transition: color 0.2s ease, border-bottom 0.2s ease;
+		-webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
+		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
+		transition: color 0.2s ease, border-bottom 0.2s ease;
+		text-decoration: none;
+		border-bottom: none;
+		color: inherit;
+	}
 
 	strong, b {
 		font-weight: 400;
